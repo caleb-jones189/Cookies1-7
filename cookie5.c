@@ -2,13 +2,13 @@
 #include<math.h>
 int main()
 {
-	int  a,b,c,numRoots;
+	double  a,b,c,numRoots;
 	printf("Enter 'a': ");
-	scanf("%d",&a);
+	scanf("%lf",&a);
 	printf("Enter 'b': ");
-	scanf("%d",&b);
+	scanf("%lf",&b);
 	printf("Enter 'c': ");
-	scanf("%d",&c);
+	scanf("%lf",&c);
 
 	numRoots=pow(b,2)-4*a*c;
 
